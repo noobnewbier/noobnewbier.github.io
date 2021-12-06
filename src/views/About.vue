@@ -5,7 +5,7 @@
     <div class="paragraph">
       <div>
         I'm <strong>Tsun To</strong>(more often known as
-        <strong>Peter</strong>).Currently a game developer in Kyoto working on
+        <strong>Peter</strong>). Currently a game developer in Kyoto working on
         Apple Arade's games. Have commercial experience in C#, Unity, WPF, and
         Android Development.
       </div>
