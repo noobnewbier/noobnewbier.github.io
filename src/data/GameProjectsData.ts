@@ -34,17 +34,51 @@ export default [
 
     `, "#23bd69", false, true),
 
-    new ProjectData("project-green2", "Current Commercial Project", "img/projects/black.jpg", `
+    new ProjectData("project-4", "Reinforcement Learning", "img/projects/project-towerdefense-rendered-cropped.jpg", `
+    <div class="paragraph">
+        This is an experimental project I worked on to learn some cutting-edge technologies and expose myself to various components of game development.
+
+        </br>
+
+        The primary purpose of the project is to explore the possibility of using <a href="https://github.com/noobnewbier/TowerDefense">Reinforcement Learning</a> in game development. 
+        And more importantly, every programmer needs some new toys now and then :). 
+        I also used this opportunity to try out some other things like procedural animation and 3D modeling.
+    </div>
+    
+    <div class="paragraph">
+        Main features :
+        <ul>
+            <li>Ability to understand and incorporate cutting-edge technologies.</li>
+            <li>Working and debugging third-party beta libraries.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Please feel free to poke with the source code <a href="https://github.com/noobnewbier/TowerDefense">here</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="paragraph-img" src="img/projects/towerdefense-gameplay-annotated.png" alt="Annotated Screenshot of gameplay" />
+    </div>
+    `, "#e80fb7"),
+
+    new ProjectData("project-green2", "Frogger and the Rumbling Ruins", "img/projects/frogger-in-rumbling-ruins.jpg", `
     <div class="paragraph">
         After working for roughly 5-months for the <a href="https://apps.apple.com/us/app/frogger-in-toy-town/id1464883929">Frogger</a> Team in <a href="https://www.q-games.com/en/">Q-Games</a>, 
-        my quality of work is recognized and therefore transitioned into another team to help work on a project that is still under heavy development.
+        my quality of work is recognized and therefore transitioned into another team to help work on a project that was still under heavy development.
     </div>
     
     <div class="paragraph"> 
         In the process, I contributed by cooperating with our animator to bring our main character to life in a 3D grid-based environment, 
-        implementing physics-related gameplay features, and developing UI for both the prototype and the final product. 
+        implementing physics-related gameplay features, and developing most of the UIs for both the prototype and the final product. I am glad that the game was generally well received.
     </div>
-
+    
+    <div class="paragraph center">
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/XnHyJo7cm6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
     <div class="paragraph">
         I am hence tainted with general gameplay programming and elementary maths for game development.
     </div>
@@ -58,7 +92,8 @@ export default [
             <li>Creating interactive UI for commercial purposes.</li>
         </ul>
     </div>
-    `, "#5a78af", true),
+    
+    `, "#5a78af", false, true),
 
     new ProjectData("project-procedural-tree-generation", "Procedural Tree Generation", "img/projects/project-proc-gen-tree.png", `
     <div class="paragraph">
@@ -88,35 +123,5 @@ export default [
         <img class="fix-300x300" src="img/projects/procgen-tree-1.jpg"/>
         <img class="fix-300x300" src="img/projects/procgen-tree-2.jpg"/>
     </div>
-    `, "#383838"),
-
-    new ProjectData("project-4", "Reinforcement Learning", "img/projects/project-towerdefense-rendered-cropped.jpg", `
-    <div class="paragraph">
-        This is an experimental project I worked on to learn some cutting-edge technologies and expose myself to various components of game development.
-
-        </br>
-
-        The primary purpose of the project is to explore the possibility of using <a href="https://github.com/noobnewbier/TowerDefense">Reinforcement Learning</a> in game development. 
-        And more importantly, every programmer needs some new toys now and then :). 
-        I also used this opportunity to try out some other things like procedural animation and 3D modeling.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-            <li>Ability to understand and incorporate cutting-edge technologies.</li>
-            <li>Working and debugging third-party beta libraries.</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-            Please feel free to poke with the source code <a href="https://github.com/noobnewbier/TowerDefense">here</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="paragraph-img" src="img/projects/towerdefense-gameplay-annotated.png" alt="Annotated Screenshot of gameplay" />
-    </div>
-    `, "#e80fb7")
+    `, "#383838")
 ];
