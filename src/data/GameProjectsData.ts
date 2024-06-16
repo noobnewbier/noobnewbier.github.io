@@ -1,6 +1,35 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-mars-horizon-2", "Mars Horizon 2", "img/projects/project-mh2.png",
+        `
+    <div class="paragraph">
+        During my time with <a href="https://www.aurochdigital.com/">Sumo Group - Auroch Digital</a>, I am the tool programmer for the sequel of the hugely successful <a href="https://store.steampowered.com/app/765810/Mars_Horizon/">Mars Horizon</a> - <a href="https://store.steampowered.com/app/2281620/Mars_Horizon_2_The_Search_for_Life/">Mars Horizon 2</a>. 
+        Whilst Mars Horizon 2 is still work in progress, the tools I created contributed heavily into the creation of our prototypes, and facilitated the release of the official trailer.
+           
+        The announcement was a success, as we can observe in the Mars Horizon Discord, with many supported of the prequel expressing their anticipation.
+    </div>
+    
+    <div class="paragraph center">
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/OWUkqfdJ0_0?si=LIcSIkCXyi93Trb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        In the process, I contributed by creating various complex yet easy to use tools for designers, artists and programemr. Some of the more significant work includes a Data Editor which allows designer to edit data structure that is traditionally impossible in Unity,
+        and creating code generation tool for our UI programming crews. 
+    </div>
+
+    <div class="paragraph">
+        Highlights:
+        <ul>
+            <li>Creating user-friendly UI that increase other team member's productivity</li>
+            <li>Code generation to improve productivity of programmers</li>
+            <li>Extensive knowledge in tooling both in and outside of game engine</li>
+        </ul>
+    </div>
+
+    `, "#23bd69", false, true),
+
     new ProjectData("project-frogger-in-toy-town", "Frogger in Toy Town", "img/projects/project-frogger.jpg", 
     `
     <div class="paragraph">
@@ -32,37 +61,7 @@ export default [
         </ul>
     </div>
 
-    `, "#23bd69", false, true),
-
-    new ProjectData("project-4", "Reinforcement Learning", "img/projects/project-towerdefense-rendered-cropped.jpg", `
-    <div class="paragraph">
-        This is an experimental project I worked on to learn some cutting-edge technologies and expose myself to various components of game development.
-
-        </br>
-
-        The primary purpose of the project is to explore the possibility of using <a href="https://github.com/noobnewbier/TowerDefense">Reinforcement Learning</a> in game development. 
-        And more importantly, every programmer needs some new toys now and then :). 
-        I also used this opportunity to try out some other things like procedural animation and 3D modeling.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-            <li>Ability to understand and incorporate cutting-edge technologies.</li>
-            <li>Working and debugging third-party beta libraries.</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-            Please feel free to poke with the source code <a href="https://github.com/noobnewbier/TowerDefense">here</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="paragraph-img" src="img/projects/towerdefense-gameplay-annotated.png" alt="Annotated Screenshot of gameplay" />
-    </div>
-    `, "#e80fb7"),
+    `, "#23bd69", true, false),
 
     new ProjectData("project-green2", "Frogger and the Rumbling Ruins", "img/projects/frogger-in-rumbling-ruins.jpg", `
     <div class="paragraph">
@@ -93,35 +92,5 @@ export default [
         </ul>
     </div>
     
-    `, "#5a78af", false, true),
-
-    new ProjectData("project-procedural-tree-generation", "Procedural Tree Generation", "img/projects/project-proc-gen-tree.png", `
-    <div class="paragraph">
-        This is an experimental project I worked on to learn more about procedural generation and to play with another shiny new toy.
-    </div>
-    
-    <div class="paragraph">
-        The project is for prototyping purposes and serves no commercial value. However, the possibility of creating a wide variety of trees using such a simple algorithm is fascinating to me.
-    </div>
-
-    <div class="paragraph">
-        I hence have a basic understanding of mesh manipulation and procedural generation.
-    </div>
-    <div class="paragraph center">
-        <img class="paragraph-img" src="img/projects/procgen-tree-3.png"/>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-            Please feel free to poke with the source code <a href="https://github.com/noobnewbier/Transport-Oriented-Growth-Unity">here</a>.
-            </br>
-            Also, note that the algorithm was <a href="https://nickmcd.me/2020/10/19/transport-oriented-growth-and-procedural-trees/">created by Nick</a> and I held no credit for it. This work is done given Nick's acknowledgment.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="fix-300x300" src="img/projects/procgen-tree-1.jpg"/>
-        <img class="fix-300x300" src="img/projects/procgen-tree-2.jpg"/>
-    </div>
-    `, "#383838")
+    `, "#5a78af", false, true)
 ];

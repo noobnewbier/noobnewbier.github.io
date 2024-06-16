@@ -3,18 +3,12 @@
     <h1>Games</h1>
 
     <div style="margin-bottom: 30px;">
-      Here are some games related project I've contributed to either in a
-      commercial environment or in my spare time.
+      Here are some commercial games I have worked on in the past.
+      <br>
+      My experience spanned across different platforms, from PC to mobile, to niche platform like Apple TV for Apple Arcade.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
-
-    <div style="margin-top: 20px;">
-      More is available on
-      <a target="_blank" href="https://github.com/noobnewbier?tab=repositories"
-        >my repositories</a
-      >
-    </div>
   </div>
 </template>
 

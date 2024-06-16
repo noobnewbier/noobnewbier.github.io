@@ -4,6 +4,7 @@
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">Games</router-link>
       <router-link to="/other-projects">Other Experience</router-link>
+      <router-link to="/tech-demos">Tech Demo</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>
