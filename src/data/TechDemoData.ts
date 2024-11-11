@@ -1,6 +1,27 @@
 import ProjectData from "@/data/ProjectData";
 
 export default [
+    new ProjectData("noneb-ni", "Ongoing Personal Project", "img/projects/scene-demo.png", `
+    <div class="paragraph">
+        This is an experiment project primarily created for experiment, where I play with ideas such as custom editor tooling and try out new technology. 
+    </div>
+    
+    <div class="paragraph">
+        The project is for prototyping purposes and serves no commercial value. However it should serve a demo to my interest and ability. 
+    </div>
+
+    <div class="paragraph center">
+        <img class="paragraph-img" src="img/projects/scene-demo.png"/>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+            Please feel free to poke with the source code <a href="https://github.com/noobnewbier/NonebNi">here</a>.
+        </div>
+    </div>
+    
+    `, "#1565c0"),
+
 new ProjectData("project-procedural-tree-generation", "Procedural Tree Generation", "img/projects/project-proc-gen-tree.png", `
     <div class="paragraph">
         This is an experimental project I worked on to learn more about procedural generation and to play with another shiny new toy.

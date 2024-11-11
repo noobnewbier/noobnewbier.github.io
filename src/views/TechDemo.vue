@@ -11,7 +11,7 @@
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px;">
-      More is available on
+      More is available onc
       <a target="_blank" href="https://github.com/noobnewbier?tab=repositories"
         >my repositories</a
       >

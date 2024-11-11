@@ -5,8 +5,8 @@
     <div class="paragraph">
       <div>
         I'm <strong>Tsun To</strong>(more often known as
-        <strong>Peter</strong>). Currently a game developer in Kyoto working on
-        Apple Arade's games. Have commercial experience in C#, Unity, WPF, and
+        <strong>Peter</strong>). Currently a tool programmer in UK working on
+        <a href="https://store.steampowered.com/app/2281620/Mars_Horizon_2_The_Search_for_Life/">Mars Horizon 2</a>. Have commercial experience in C#, Unity, WPF, Apple Arcade, and
         Android Development.
       </div>
 
@@ -22,9 +22,8 @@
       <div style="margin-top: 20px;">
         Inspired by the
         <a href="https://youtu.be/KRJkBxKv1VM">GDC talk from Guerilla Games</a>,
-        I actively aim to transition to become a tool programmer, I believe by
-        empowering other team members to reach their full potential, my work
-        will be able to reach a wider audience and make a greater impact.
+        I believe by empowering other team members to create content at their max capacity, my work
+        will reach a wider audience and make a greater impact.
       </div>
 
       <div style="margin-top: 40px;">
