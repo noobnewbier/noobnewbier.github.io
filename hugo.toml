@@ -1,0 +1,8 @@
+baseURL = 'https://noobnewbier.github.io/'
+locale = 'en'
+title = 'Noneb Land' # todo: wah? 
+theme = "congo"
+
+[security]
+  allowContent = ['! ^text/org$']
+  enableInlineShortcodes = false

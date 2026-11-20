@@ -1,0 +1,6 @@
+- hugo version hugo_0.170.0_windows-amd64
+- theme -> congo:https://github.com/jpanther/congo/releases/tag/v2.14.0
+  - installed manually
+- go into src directory -> 
+  - `hugo server -D` for testing env
+  - `hugo --cleanDestinationDir --gc --minify` to build

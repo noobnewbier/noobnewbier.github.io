@@ -1,0 +1,24 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+
+title = "Coding Cave"
+copyright = ""
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["samples"]
+  description = "Game Developer - Tool Specialist"
+
+[params.author]
+  name = "Peter To"
+  image = "img/avatar.png"
+  headline = "Game Developer - Tool Specialist"
+  bio = "This is an example author bio, and although there's a stock photo of a dog here, this article was actually created by a human. :dog:"
+  links = [
+    { github = "https://github.com/noobnewbier/" },
+    { email = "mailto:peter789b@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/tsun-to-gamedev/" }
+  ]

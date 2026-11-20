@@ -1,0 +1,2 @@
+- we could have tags, but we don't atm.
+- it's a txt so Hugo won't complain.
