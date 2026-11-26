@@ -1,0 +1,11 @@
+.prose :where(ul):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: -15px;
+}
+
+.prose :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    margin-top: 0em;
+    margin-bottom: .5em;
+    padding-left: 2px;
+}

@@ -7,6 +7,13 @@ tags: [ "games" ]
 weight: 2
 ---
 
+{{< alert "circle-info" >}}
+- Cooperating with animators to create commercial-level animation for the main character.
+- Implementing gameplay features that are vital to the core gameplay using maths and physics.
+- Developing custom tools for Unity editor to assist debugging.
+- Creating interactive UI for commercial purposes.
+{{< /alert >}}
+
 After working for roughly 5-months for the [Frogger](work/frogger-in-toy-town) Team in
 [Q-Games](https://www.q-games.com/en/),
 my quality of work is recognized and therefore transitioned into another team to help work on a project that was still
@@ -18,9 +25,3 @@ and was in charge of most of the UIs for both the prototype and the final produc
 I am glad that the game was generally well received.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XnHyJo7cm6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Highlights:
-- Cooperating with animators to create commercial-level animation for the main character.
-- Implementing gameplay features that are vital to the core gameplay using maths and physics.
-- Developing custom tools for Unity editor to assist debugging.
-- Creating interactive UI for commercial purposes.
